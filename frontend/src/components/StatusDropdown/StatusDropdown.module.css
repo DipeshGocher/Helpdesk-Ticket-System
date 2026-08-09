@@ -1,0 +1,19 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.select {
+  width: auto;
+  padding: 6px 30px 6px 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.terminalHint {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
