@@ -1,0 +1,38 @@
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.headerRow h1 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.controlsBar {
+  padding: 16px 18px;
+  margin-bottom: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.emptyState {
+  padding: 48px 20px;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
